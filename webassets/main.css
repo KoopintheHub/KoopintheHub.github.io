@@ -1,4 +1,10 @@
 body {
   background-image: url("webbg.png");
-  background-color: #09BBE8;
+  /* background-color: #09BBE8; */
+  background:linear-gradient(to bottom, #09BBE8 5%, #0592b5 100%);
+  user-select: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
 }
