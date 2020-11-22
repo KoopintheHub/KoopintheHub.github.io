@@ -4,6 +4,7 @@
 }
 body {
   background-image: url("webbg.png");
+  font-family: SuperMarioMakerExtended;
   /* background-color: #09BBE8; */
   background: linear-gradient(to bottom, #09BBE8 5%, #037f9e 100%);
   user-select: none;
