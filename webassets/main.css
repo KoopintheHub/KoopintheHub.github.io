@@ -1,7 +1,7 @@
 body {
   background-image: url("webbg.png");
   /* background-color: #09BBE8; */
-  background: linear-gradient(to bottom, #09BBE8 5%, #0592b5 100%);
+  background: linear-gradient(to bottom, #09BBE8 5%, #037f9e 100%);
   user-select: none;
   -webkit-user-select: none;
   -khtml-user-select: none;
