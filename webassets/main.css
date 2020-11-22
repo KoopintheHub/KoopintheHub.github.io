@@ -1,6 +1,6 @@
 @font-face {
   font-family: SuperMarioMakerExtended;
-  src: url(assets/mainFont.woff);
+  src: url(mainFont.woff);
 }
 body {
   background-image: url("webbg.png");
