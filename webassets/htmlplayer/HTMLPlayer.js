@@ -12,3 +12,15 @@ function bootPlayer() {
   });
   document.getElementById('HTMLPlayer').src = playerParams.get('src');
 }
+
+var keys = {};
+  document.getElementById('HTMLPlayer').addEventListener("keydown",
+    function(e){
+        keys[e.keyCode] = true;
+        switch(e.keyCode){
+            case 37: case 39: case 38:  case 40: // Arrow keys
+            case 32: e.preventDefault(); break; // Space
+            default: break; // do not block other keys
+        }
+    },
+false);
