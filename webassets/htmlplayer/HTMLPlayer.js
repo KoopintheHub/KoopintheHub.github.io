@@ -13,12 +13,10 @@ function bootPlayer() {
   document.getElementById('HTMLPlayer').src = playerParams.get('src');
 }
 
-var keys = {};
-window.addEventListener("keydown", function(e) {
-	keys[e.keyCode] = true;
-	switch(e.keyCode) {
-		case 37: case 39: case 38:  case 40: // Arrow keys
-		case 32: e.preventDefault(); break; // Space
-		default: break; // do not block other keys
-	}
-}, false);
+document.onkeydown = function(evt) {
+    evt = evt || window.event;
+    var keyCode = evt.keyCode;
+    if (keyCode >= 37 && keyCode <= 40) {
+        return false;
+    }
+};
